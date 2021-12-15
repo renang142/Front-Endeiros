@@ -1,0 +1,40 @@
+ 
+* {
+    /* Indica que o tamanho agora levará em conta até a borda.*/
+    box-sizing: border-box;
+    /* Remover bordas de elementos selecionados */
+    outline: none;
+    /*Define atrasos em transições*/
+    transition: .1s;
+}
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+body {
+     background-image: url('../assets/img/bg01.jpg');
+     background-color: var(--bg-color);
+     background-attachment: fixed;
+     background-repeat:no-repeat;
+     background-position: center;
+     background-size: cover;
+    }
+
+
+
